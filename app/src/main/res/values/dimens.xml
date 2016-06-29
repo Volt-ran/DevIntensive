@@ -26,4 +26,6 @@
     <dimen name="size_big_72">72dp</dimen>
     <dimen name="Line_size">1dp</dimen>
 
+    <dimen name="profile_image_size">256dp</dimen>
+
 </resources>
