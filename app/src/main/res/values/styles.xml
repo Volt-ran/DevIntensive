@@ -1,11 +1,19 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark"/>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
     </style>
 
     <style name="icon">
@@ -29,6 +37,8 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:enabled">false</item>
+        <item name="android:textScaleX">0.8</item>
+        <item name="android:textSize">@dimen/font_size_16</item>
         <item name="android:textColor">@color/color_black</item>
         <item name="android:textColorHint">@color/color_gray</item>
         <item name="android:focusable">false</item>
@@ -36,14 +46,37 @@
 
     <style name="rating">
 
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">@dimen/size_small_24</item>
         <item name="android:gravity">center</item>
         <item name="android:enabled">false</item>
         <item name="android:focusable">false</item>
         <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">@dimen/Line_size</item>
+        <item name="android:layout_height">@dimen/font_size_56</item>
+        <item name="android:background">@color/color_gray_light</item>
+    </style>
+
+    <style name="line1">
+        <item name="android:layout_width">@dimen/Line_size</item>
+        <item name="android:layout_height">@dimen/font_size_56</item>
+        <item name="android:background">@color/color_gray_light</item>
+    </style>
+
+    <style name="custom_dialog">
+        <item name="android:fullDark">@android:color/transparent</item>
+    </style>
+
+    <style name="header_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
     </style>
 
 </resources>
