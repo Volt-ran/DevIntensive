@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Саттарова Алина</string>
+    <string name="user_profile.placeholder.image">Изменить фотографию профиля</string>
+    <string name="user_profile.dialog.gallery">Загрузить из галлереи</string>
+    <string name="user_profile.dialog.camera">Сделать снимок</string>
+    <string name="user_profile.dialog.cancel">Отмена</string>
+    <string name="user_profile_dialog_title">Изменить фотографию профиля</string>
+    <string name="user_profile.choose.message">Выберите фото</string>
+    <string name="permission_alert_message">Для корректной работы приложения необходимо дать требуемые права</string>
+    <string name="login.password_hint">Пароль</string>
+    <string name="login.forgot_password">Забыли пароль?</string>
+    <string name="login.enter_button_label">Войти</string>
+    <string name="login.enter_label">Войти</string>
 </resources>
